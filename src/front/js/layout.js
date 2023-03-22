@@ -4,6 +4,7 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./pages/home";
 import Login from "./pages/login";
 import Signup from "./pages/signup";
+import About from "./pages/about";
 import Categories from "./pages/categories";
 import Room from "./pages/room";
 import Profile from "./pages/profile";
@@ -33,6 +34,7 @@ const Layout = () => {
             <Route element={<Login />} path="/login" />
             <Route element={<Signup />} path="/register" />
             <Route element={<Demo />} path="/demo" />
+            <Route element={<About />} path="/about" />
             <Route element={<Categories />} path="/categories" />
             <Route element={<Room />} path="/room/:id" />
             <Route element={<AllObjects />} path="/all-objects" />
